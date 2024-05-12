@@ -6,10 +6,14 @@ project(test
 set(CMAKE_CXX_COMPILER clang++)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_EXTENSIONS Off)
-# add_compile_options(-Wall -Wextra -Wpedantic)
+add_compile_options(-Wall -Wextra -Wpedantic)
+
+if(CMAKE_GENERATOR STREQUAL "Ninja"
+     AND CMAKE_VERSION VERSION_GREATER_EQUAL 3.24)
+  set(CMAKE_COLOR_DIAGNOSTICS On) 
+endif()
 
 set(PROJECT_MODULE_DIR "module")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} --stdlib=libc++")
 
 add_executable(result)
 target_sources(result PUBLIC
