@@ -16,6 +16,9 @@ cmake --build .build
   - Ninja v1.11 or newer (or Ninja Multi-Config)
   - MSVC toolset v14.34 or newer (Visual Studio v17.4 2022)
 
+##### Module implementation unit
+I couldn't compile it with module implementation unit just like that, [here](https://gist.github.com/stripe2933/6a1c7a2fa9a0fc6b3356db5ca5b13c97) there is example where it works, but way through library looks kinda crutchy for me
+
 \
 \
 Useful [Stack Overflow page](https://stackoverflow.com/questions/57300495/how-to-use-c20-modules-with-cmake)
