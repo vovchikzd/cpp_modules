@@ -6,6 +6,6 @@ export module Test;
 
 import :partition;
 
-export auto ModulePrint() -> void {
+export void ModulePrint() {
   std::println("{}", Number);
 }
