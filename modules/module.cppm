@@ -4,7 +4,7 @@ module;
 
 export module Test;
 
-constexpr size_t Number = 69;
+import :partition;
 
 export auto ModulePrint() -> void {
   std::println("{}", Number);
