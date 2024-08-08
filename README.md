@@ -19,7 +19,6 @@ cmake --build .build
 ##### Module implementation unit
 I couldn't compile it with module implementation unit just like that (add file to FILE_SET), [here](https://gist.github.com/stripe2933/6a1c7a2fa9a0fc6b3356db5ca5b13c97) there is example where case with module implementation unit works, but way through library looks kinda crutchy for me \
 TODO:
-- [ ] check with gcc (msvc compiler????)
 - [ ] read iso about module implementation unit
 
 \
