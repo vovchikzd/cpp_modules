@@ -7,5 +7,5 @@ export module Test;
 import :partition;
 
 export void ModulePrint() {
-  std::println("{}", Number);
+  std::println("Text itself came from module and number came from module partition: {}", Number);
 }
