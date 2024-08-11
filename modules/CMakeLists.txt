@@ -6,4 +6,5 @@ target_sources(result PRIVATE
                  ${CMAKE_CURRENT_SOURCE_DIR}/module.cppm
                  ${CMAKE_CURRENT_SOURCE_DIR}/partition.cppm
                  ${CMAKE_CURRENT_SOURCE_DIR}/template.cppm
+                 ${CMAKE_CURRENT_SOURCE_DIR}/template_partition.cppm
 )
