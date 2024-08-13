@@ -6,7 +6,9 @@ export module tmp;
 export import :part;
 
 export template<typename T>
-void get_size() {}
+void get_size() {
+  std::println("don't know what you are, but your sizeof is: {}", sizeof(T));
+}
 
 template<>
 void get_size<int>() {

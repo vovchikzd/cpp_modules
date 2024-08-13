@@ -3,7 +3,9 @@ module;
 export module tmp:part;
 
 export template<typename T>
-void tmp_part() {}
+void tmp_part() {
+  std::println("i again don't know you, sizeof: {} (by the way, i am partition)", sizeof(T));
+}
 
 template<>
 void tmp_part<int>() {
